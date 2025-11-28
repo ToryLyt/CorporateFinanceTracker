@@ -7,7 +7,7 @@ namespace Shared.Models
     public class Country
     {
         private int _id;
-        private string _name;
+        private string _name = "";
 
         public int Id 
         { 

@@ -9,10 +9,10 @@ namespace Shared.Models
         private int _id;
         private int _countryId;
         private int _cityId;
-        private string _street;
+        private string _street="";
         private int _houseNum;
         private int _apartment;
-        private string _postalCode;
+        private string _postalCode="";
 
         public int Id
         {
