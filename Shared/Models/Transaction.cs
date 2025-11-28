@@ -17,6 +17,9 @@
         private DateTime _dateModified;
         private bool _isIncome;
         private string _receiptPath="";
+        private int _categoryId;
+        private int _projectId;
+        private int _subCategoryId;
 
         public int Id
         {
@@ -94,6 +97,21 @@
         {
             get { return _receiptPath; }
             set { _receiptPath = value; }
+        }
+        public int CategoryId
+        {
+            get { return _categoryId; }
+            set { _categoryId = value; }
+        }
+        public int SubCategoryId
+        {
+            get { return _subCategoryId; }
+            set { _subCategoryId = value; }
+        }
+        public int ProjectId
+        {
+            get { return _projectId; }
+            set { _projectId = value; }
         }
     }
 }
