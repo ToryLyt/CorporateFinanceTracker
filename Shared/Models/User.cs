@@ -7,14 +7,14 @@ namespace Shared.Models
     public class User
     {
         private int _id;
-        private string _name;
-        private string _surname;
+        private string _name = "";
+        private string _surname="";
         private DateTime _birthDate;
         private DateTime _dateCreated;
-        private string _login;
-        private string _email;
-        private string _password;
-        private string _phone;
+        private string _login = "";
+        private string _email = "";
+        private string _password = "";
+        private string _phone = "";
         private int _addressId;
 
         private int _roleId;
