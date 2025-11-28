@@ -7,7 +7,7 @@ namespace Shared.Models
     public class Account
     {
         private int _id;
-        private string _name="";
+        private string _name = "";
         private int _currencyId;
         private int _departmentId;
         private int _ownerUserId;
@@ -22,10 +22,10 @@ namespace Shared.Models
 
         private bool _isActive;
 
-        public int Id 
-        { 
-            get { return _id; } 
-            set { _id = value; } 
+        public int Id
+        {
+            get { return _id; }
+            set { _id = value; }
         }
 
         public string Name
