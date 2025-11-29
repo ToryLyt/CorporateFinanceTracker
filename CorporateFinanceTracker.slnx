@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Shared/Shared.csproj" />
+  <Project Path="TestApp/TestApp.csproj" Id="eb0349b5-3b48-44eb-ac4b-29046cc85fef" />
 </Solution>
