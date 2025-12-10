@@ -8,6 +8,7 @@ namespace Shared.Models
     {
         private int _id;
         private string _name = "";
+        private string _iban = "";
         private int _currencyId;
         private int _departmentId;
         private int _ownerUserId;
@@ -18,6 +19,7 @@ namespace Shared.Models
         private DateTime _dateModified;
 
         private int _createdByUserId;
+        private int _accountTypeId;
         private int _lastModifiedByUserId;
 
         private bool _isActive;
@@ -28,6 +30,11 @@ namespace Shared.Models
             set { _id = value; }
         }
 
+        public string Iban
+        {
+            get { return _iban; }
+            set { _iban = value; }
+        }
         public string Name
         {
             get { return _name; }
@@ -81,6 +88,11 @@ namespace Shared.Models
             set { _lastModifiedByUserId = value; }
         }
 
+        public int AccountTypeId
+        {
+            get { return _accountTypeId; }
+            set { _accountTypeId = value; }
+        }
         public bool IsActive
         {
             get { return _isActive; }
